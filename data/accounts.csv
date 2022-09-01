@@ -1,2 +1,2 @@
-Date,Ticker,Name,Price_Bought,quantity,total_price,budget
-2022-08-31 13:33:03.843180,,,,,,100000
+Date,Ticker,Name,Price_Bought,quantity,total_price,budget,Current Price,Change Percent
+2022-09-01 18:03:05.493292,PHM,"PulteGroup, Inc.",40.66,52,2114.31999999999,999909,,
