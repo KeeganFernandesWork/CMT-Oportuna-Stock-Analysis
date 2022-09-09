@@ -61,7 +61,7 @@ def rsi_graphmaker(tic_rsi):
     ax2.set_title('RELATIVE STRENGTH INDEX')
     plt.show()
 
-def graph_maker(todays , time):
+def graph_maker(todays = todays , time = 365):
     start = datetime.today() - timedelta(days = time)
     end = datetime.today()
     ticker_1 = yf.download(todays[0],start,end)
@@ -87,5 +87,6 @@ def graph_maker(todays , time):
     print(todays[2])
     plot_macd(ticker_3['Close'], ticker_3_macd['macd'], ticker_3_macd['signal'], ticker_3_macd['hist'])
     rsi_graphmaker(ticker_3_rsi)
+
 
 graph_maker(todays, 365)
