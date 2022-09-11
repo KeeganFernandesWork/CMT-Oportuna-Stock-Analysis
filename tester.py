@@ -63,7 +63,7 @@ def rsi_graphmaker(tic_rsi):
     ax2.set_title('RELATIVE STRENGTH INDEX')
     plt.savefig('./images/rsi_{a}.png'.format(a = today))
 
-def graph_maker(time):
+def graph_maker_2(time):
     today = input("Input the Ticket:--  ")
     start = datetime.today() - timedelta(days = time)
     end = datetime.today()
